@@ -14,6 +14,4 @@ string SeriesNumbers(int number)
         return number + ", " + SeriesNumbers(number - 1);
     }
 }
-Console.WriteLine();
 Console.WriteLine(SeriesNumbers(number));
-Console.WriteLine();
