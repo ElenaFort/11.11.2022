@@ -14,4 +14,4 @@ int SumNumbers(int num1, int num2)
         return SumNumbers(num1, num2 - 1) + num2;
     }
 }
-Console.WriteLine(SumNumbers(4, 8));
+Console.WriteLine(SumNumbers(4,8));
